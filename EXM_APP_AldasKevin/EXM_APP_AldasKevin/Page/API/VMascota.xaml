@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EXM_APP_AldasKevin.Page.API.VMascota">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="txtId"></Entry>
+            <Entry x:Name="txtNombre"></Entry>
+            <Entry x:Name="txtEspecie"></Entry>
+            <Entry x:Name="txtRaza"></Entry>
+            <Entry x:Name="txtEdad"></Entry>
+            <Entry x:Name="txtNroChip"></Entry>
+            <Label x:Name="lblDatos"></Label>
+            <Button Text="Buscar" Clicked="BuscarMas"></Button>
+            <Button Text="Guardar" Clicked="insertarMascota"></Button>
+            <Button Text="Actualizar" Clicked="actualizarMascota"></Button>
+            <Button Text="Eliminar" Clicked="EliminarMascota"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
